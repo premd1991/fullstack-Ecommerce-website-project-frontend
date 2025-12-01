@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.outlet-height{
+   min-height: calc(100vh - 100px);
+}
