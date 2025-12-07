@@ -9,6 +9,7 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 // Auth Imports
 import Login from "./auth/Login";
+import Register from "./auth/Register";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
             <Route path="/Blogs" element={<Blogs />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+
 
           </Route>
         </Routes>
