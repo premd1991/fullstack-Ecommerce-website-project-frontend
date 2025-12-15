@@ -17,3 +17,7 @@
 .animate-fadeIn {
    animation: fadeIn 0.8s ease-out;
 }
+
+.user-form{
+   height: calc(100vh - 100px);
+}
