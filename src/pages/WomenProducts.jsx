@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Blogs = () => {
+function Women() {
   return (
     <div>
-      
+
+
     </div>
   )
 }
 
-export default Blogs
+export default Women
