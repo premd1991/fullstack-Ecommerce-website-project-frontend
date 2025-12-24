@@ -21,3 +21,10 @@
 .user-form{
    height: calc(100vh - 100px);
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import ProductSlider from '../components/ProductSlider';
 
 
 const Home = () => {
@@ -22,8 +23,20 @@ const Home = () => {
       {/* Right half */}
       <div onClick={goWomen} className="absolute top-0 right-0 w-1/2 h-full cursor-pointer" ></div>
    
+
+   <div>
+    <img src="https://t4.ftcdn.net/jpg/18/23/28/07/360_F_1823280726_BOfxcpQcfS1KtcWeLAIAvTCkraEmhRyN.jpg" alt=""  className='w-[1100px] h-[150px] ml-20 mt-2 rounded-4xl' />
+   </div>
+   
+       <div className="py-10">
+      <h1 className="text-xl font-bold max-w-7xl mx-auto px-4 mb-6">
+        MEDAL WORTHY BRANDS TO BAG
+      </h1>
+      < ProductSlider/>
+    </div>
+
    <div className="bg-white">
-  <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
     <h2 className="text-2xl font-bold tracking-tight text-gray-900">
       Super Saver
     </h2>
